@@ -7,12 +7,20 @@
 
 
 
-:root{
-    --cor-principal:#e2b5dc;
-    --cor-secundaria:#61023d;
-    --cor-fundo:#f5f5f5;
+:root {
+    --cor-principal: #e2b5dc;
+    --cor-secundaria: #61023d;
+    --cor-fundo: #f5f5f5;
     --cor-texto: #61023d;
-    --cor-branca:#fff;
+    --cor-branca: #fff;
+}
+
+.modo-escuro {
+    --cor-principal: #1a1a1a;
+    --cor-secundaria: #e2b5dc;
+    --cor-fundo: #121212;
+    --cor-texto: #ffffff;
+    --cor-branca: #242424;
 }
 
 
@@ -70,6 +78,9 @@ header p:hover{
     color:var(--cor-texto);
 }
 
+img{
+    
+}
 
 
 main{
@@ -82,11 +93,11 @@ main{
     gap:30px;
 }
 
-section{
-    background:white;
-    padding:30px;
-    border-radius:12px;
-    box-shadow:0 4px 10px rgba(0,0,0,.1);
+section {
+    background: var(--cor-branca);
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0,0,0,.1);
 }
 
 section h2{
@@ -159,4 +170,13 @@ footer a{
         padding:20px;
     }
 
+}
+
+#modoescuro {
+    padding: 10px 20px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
 }
