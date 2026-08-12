@@ -18,4 +18,4 @@ const foto = document.querySelector("header img");
         foto.style.transform = "scale(1)";
     });
 
-    setInterval() 
+    
